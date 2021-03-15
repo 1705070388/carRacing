@@ -22,12 +22,12 @@ function add(){
 
 
     car1_imgTag = new Image();
-    car1_imgTag.onload = uploadRover;
-    car1_imgTag.src = rover_image;
+    car1_imgTag.onload = uploadCar1;
+    car1_imgTag.src = car1_image;
 
     car2_imgTag = new Image();
-    car2_imgTag.onload = uploadRover;
-    car2_imgTag.src = car1_image;
+    car2_imgTag.onload = uploadCar2;
+    car2_imgTag.src = car2_image;
 
 }
 
