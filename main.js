@@ -49,21 +49,42 @@ function my_keydown(e){
     keypressed= e.keycode;
     console.log(keypressed);
     if(keypressed == "38"){
-        up();
+        upC1();
         console.log("up arrow is pressed");
     }
     if(keypressed == "40"){
-        down();
+        downC1();
         console.log("down arrow is pressed");
     }
 
     if(keypressed == "37"){
-        left();
+        leftC1();
         console.log("left arrow is pressed");
     }
 
     if(keypressed == "39"){
-        right();
+        rightC1();
+        console.log("right arrow is pressed");
+    }
+
+
+
+    if(keypressed == "87"){
+        upC2();
+        console.log("up arrow is pressed");
+    }
+    if(keypressed == "83"){
+        downC2();
+        console.log("down arrow is pressed");
+    }
+
+    if(keypressed == "65"){
+        leftC2();
+        console.log("left arrow is pressed");
+    }
+
+    if(keypressed == "68"){
+        rightC2();
         console.log("right arrow is pressed");
     }
 }
